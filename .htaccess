@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+#RequestCond %{REQUEST_METHOD} POST
+RewriteRule . index.php
